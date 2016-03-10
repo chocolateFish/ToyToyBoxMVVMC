@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toybox App</title>
+      <script src="toyboxApp.js"></script>
+      <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="viewModel.js"></script>
+    <script src="controller.js"></script>
+
+    
+  </head>
+<body>
+    <div id="main" >
+        <input id="toyName" type="text" value="name">
+        <input id="toyColor" type="text" value="color">
+        <input id="toyCost" type="text" value="cost">
+        <input id="addToyBtn" type="button" value="add toy"><br>
+        
+        <select id="toyList"></select><br>
+        <span id="toyCount"></span><br>
+	</div>
+
+    <script>
+    (function () {
+        toyboxApp.initModule();                      
+    } () );
+	</script>
+    </div>
+    
+  
+ 
+    
+</body>
+</html>
